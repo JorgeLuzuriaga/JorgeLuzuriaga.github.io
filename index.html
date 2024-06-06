@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Django en GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        p {
+            line-height: 1.6;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Bienvenido al Proyecto Django</h1>
+    <p>Este proyecto es un ejemplo básico de cómo utilizar Django con una plantilla y cómo subirlo a GitHub.</p>
+
+    <h2>Características del Proyecto</h2>
+    <ul>
+        <li>Implementación básica de Django.</li>
+        <li>Uso de plantillas de Django.</li>
+        <li>Configuración para ser desplegado en GitHub Pages.</li>
+    </ul>
+
+    <h2>Cómo Configurar el Proyecto</h2>
+    <p>Sigue estos pasos para configurar y ejecutar el proyecto localmente:</p>
+    <pre><code>
+# Clona el repositorio
+git clone https://github.com/tu-usuario/django-template-project.git
+
+# Navega al directorio del proyecto
+cd django-template-project
+
+# Crea y activa un entorno virtual
+python -m venv env
+source env/bin/activate  # En Windows usa: env\Scripts\activate
+
+# Instala las dependencias
+pip install -r requirements.txt
+
+# Realiza las migraciones
+python manage.py migrate
+
+# Ejecuta el servidor de desarrollo
+python manage.py runserver
+        </code></pre>
+
+    <h2>Enlaces Útiles</h2>
+    <p>Visita el <a href="https://github.com/tu-usuario/django-template-project">repositorio en GitHub</a> para más detalles.</p>
+</div>
+</body>
+</html>
